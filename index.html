@@ -11,6 +11,7 @@
             margin: 0;
             padding: 0;
             text-align: center;
+            color: #333;
         }
         header {
             background-color: #333;
@@ -19,6 +20,20 @@
         }
         main {
             padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            max-width: 800px;
+            margin: 20px auto;
+            text-align: left;
+        }
+        h2 {
+            color: #333;
+            font-size: 24px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin: 10px 0;
         }
         footer {
             background-color: #333;
@@ -29,6 +44,15 @@
             width: 100%;
             text-align: center;
         }
+        .section-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #444;
+            margin-top: 20px;
+        }
+        .info {
+            margin-left: 20px;
+        }
     </style>
 </head>
 <body>
@@ -38,12 +62,30 @@
     </header>
 
     <main>
-        <p>Это тестовый сайт, созданный с использованием GitHub Pages.</p>
-        <p>Вы можете сюда добавить свою информацию, картинки, ссылки и т.д.</p>
+        <h2>Привет, меня зовут Андеев Владислав Валерьевич!</h2>
+
+        <p>Я рад приветствовать вас на своей страничке. Здесь я расскажу немного о себе:</p>
+
+        <div class="section-title">Обо мне:</div>
+        <div class="info">
+            <p><strong>ФИО:</strong> Андеев Владислав Валерьевич</p>
+            <p><strong>Образование:</strong> Я окончил УТЖТ железнодорожный техникум, а сейчас учусь в УГНТУ, получая высшее образование.</p>
+            <p><strong>Текущая работа:</strong> На данный момент я заведую складом в табачном магазине.</p>
+        </div>
+
+        <div class="section-title">Мои увлечения:</div>
+        <div class="info">
+            <p>Я всегда ценил активный образ жизни, поэтому каждый день занимаюсь спортом. Мои тренировки включают:</p>
+            <ul>
+                <li>Отжимания</li>
+                <li>Пресс</li>
+                <li>Приседания</li>
+            </ul>
+        </div>
     </main>
 
     <footer>
-        <p>© 2025 Мой сайт</p>
+        <p>© 2025 Андеев Владислав Валерьевич</p>
     </footer>
 
 </body>
